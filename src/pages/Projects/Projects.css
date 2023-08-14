@@ -1,0 +1,5 @@
+.card:hover{
+    .custom-hover{
+        transform: scale(1.1);
+    }
+}
