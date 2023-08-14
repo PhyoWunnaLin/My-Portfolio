@@ -113,7 +113,7 @@ const Resume = () => {
               Knowledge
             </h1>
             <div className="flex justify-between max-[550px]:flex-col max-[550px]:gap-4">
-              <div className="w-[45%] flex flex-col gap-3 max-[550px]:gap-4">
+              <div className="w-[45%] max-[550px]:w-[100%] flex flex-col gap-3 max-[550px]:gap-4">
                 <div className="flex gap-3 items-center">
                   <span className=" text-black dark:text-white">
                     <MdPlayArrow />
@@ -155,7 +155,7 @@ const Resume = () => {
                   </span>
                 </div>
               </div>
-              <div className="w-[45%] flex flex-col gap-3 max-[550px]:gap-4">
+              <div className="w-[45%] max-[550px]:w-[100%] flex flex-col gap-3 max-[550px]:gap-4">
                 <div className="flex gap-3 items-center">
                   <span className=" text-black dark:text-white">
                     <MdPlayArrow />
