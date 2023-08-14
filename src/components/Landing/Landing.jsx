@@ -8,7 +8,7 @@ import { BiLogoTelegram } from "react-icons/bi";
 
 const Landing = () => {
   return (
-    <div className="w-full h-screen max-sm:h-auto max-sm:py-20 flex justify-center items-center">
+    <div className="w-full h-screen max-sm:py-20 flex justify-center items-center">
       <div
         data-aos="fade-right"
         data-aos-duration="1000"
