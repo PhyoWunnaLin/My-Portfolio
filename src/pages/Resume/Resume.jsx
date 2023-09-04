@@ -23,7 +23,7 @@ const Resume = () => {
             <h1 className=" text-black dark:text-white text-2xl font-bold tracking-wide">
               Programming Skill
             </h1>
-            <div className="flex justify-between max-lg:flex-col max-lg:gap-5 items-center">
+            <div className="flex justify-between max-lg:flex-col max-lg:gap-5 items-top">
               <div className="w-[45%] max-lg:w-[100%] flex flex-col gap-5">
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-between">
@@ -44,17 +44,30 @@ const Resume = () => {
                       Javascript
                     </span>
                     <span className=" italic text-[#242424] dark:text-[#BBBBBB] font-medium tracking-widest">
-                      65%
+                      85%
                     </span>
                   </div>
                   <div className="h-[3px] w-full bg-[#E8E8E8] dark:bg-[#444444]">
-                    <div className="w-[65%] h-[3px] bg-black dark:bg-[#7B7B7B]"></div>
+                    <div className="w-[85%] h-[3px] bg-black dark:bg-[#7B7B7B]"></div>
                   </div>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-between">
                     <span className=" italic text-[#242424] dark:text-[#BBBBBB] font-medium tracking-widest">
                       React Js
+                    </span>
+                    <span className=" italic text-[#242424] dark:text-[#BBBBBB] font-medium tracking-widest">
+                      95%
+                    </span>
+                  </div>
+                  <div className="h-[3px] w-full bg-[#E8E8E8] dark:bg-[#444444]">
+                    <div className="w-[95%] h-[3px] bg-black dark:bg-[#7B7B7B]"></div>
+                  </div>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <div className="flex justify-between">
+                    <span className=" italic text-[#242424] dark:text-[#BBBBBB] font-medium tracking-widest">
+                      RTK Query
                     </span>
                     <span className=" italic text-[#242424] dark:text-[#BBBBBB] font-medium tracking-widest">
                       80%
@@ -85,11 +98,11 @@ const Resume = () => {
                       GitHub
                     </span>
                     <span className=" italic text-[#242424] dark:text-[#BBBBBB] font-medium tracking-widest">
-                      75%
+                      85%
                     </span>
                   </div>
                   <div className="h-[3px] w-full bg-[#E8E8E8] dark:bg-[#444444]">
-                    <div className="w-[75%] h-[3px] bg-black dark:bg-[#7B7B7B]"></div>
+                    <div className="w-[85%] h-[3px] bg-black dark:bg-[#7B7B7B]"></div>
                   </div>
                 </div>
                 <div className="flex flex-col gap-2">
