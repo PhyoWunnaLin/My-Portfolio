@@ -162,7 +162,7 @@ const Projects = () => {
               <div className="w-full h-[250px] max-lg:h-[500px] max-[830px]:h-[450px] max-md:h-[400px] max-sm:h-[300px] max-[500px]:h-[250px] max-[400px]:h-[200px] max-[350px]:h-[170px] max-[300px]:h-[150px] overflow-hidden">
                 <img
                   src={contact}
-                  className="custom-hover duration-500 w-full h-full object-cover object-top"
+                  className="custom-hover duration-500 w-full h-full object-top"
                 />
               </div>
               <h1 className="text-[#323232] dark:text-white mx-5 text-xl font-bold tracking-wider">
