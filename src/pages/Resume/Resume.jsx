@@ -214,6 +214,14 @@ const Resume = () => {
                     Git, GitHub
                   </span>
                 </div>
+                <div className="flex gap-3 items-center">
+                  <span className=" text-black dark:text-white">
+                    <MdPlayArrow />
+                  </span>
+                  <span className="text-[#4C4C4C] dark:text-[#B3B3B3] italic tracking-widest font-medium">
+                    Mantine
+                  </span>
+                </div>
               </div>
             </div>
           </div>
