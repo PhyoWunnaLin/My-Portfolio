@@ -118,6 +118,19 @@ const Resume = () => {
                     <div className="w-[70%] h-[3px] bg-black dark:bg-[#7B7B7B]"></div>
                   </div>
                 </div>
+                <div className="flex flex-col gap-2">
+                  <div className="flex justify-between">
+                    <span className=" italic text-[#242424] dark:text-[#BBBBBB] font-medium tracking-widest">
+                      CSS
+                    </span>
+                    <span className=" italic text-[#242424] dark:text-[#BBBBBB] font-medium tracking-widest">
+                      85%
+                    </span>
+                  </div>
+                  <div className="h-[3px] w-full bg-[#E8E8E8] dark:bg-[#444444]">
+                    <div className="w-[85%] h-[3px] bg-black dark:bg-[#7B7B7B]"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -322,14 +335,14 @@ const Resume = () => {
                   <div className="w-[50%] max-[450px]:w-[100%] flex items-center ml-3">
                     <span className="bg-[#F2F2F2] dark:bg-[#111111] py-2 w-32 rounded-full -ml-5">
                       <p className=" text-[#363636] dark:text-[#e0e0e0] font-medium tracking-wider italic text-center">
-                        2023
+                        Now
                       </p>
                     </span>
                   </div>
                   <div className="w-[50%] max-[450px]:w-[100%] flex items-center">
                     <span className=" flex flex-col gap-2">
                       <h1 className=" text-black dark:text-white text-lg font-medium tracking-wider">
-                        EduPro Dashboard
+                        Web POS
                       </h1>
                       <p className="text-[#4C4C4C] dark:text-[#B3B3B3] italic tracking-widest font-medium text-sm">
                         Frontend Developer

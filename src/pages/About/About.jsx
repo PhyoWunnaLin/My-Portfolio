@@ -28,23 +28,17 @@ const About = () => {
               Phyo Wunna Lin
             </h1>
             <p className="text-[#767676] dark:text-[#BBBBBB] tracking-wide font-medium text-sm">
-              Frontend Web Developer
+              Junior Frontend Web Developer
             </p>
           </div>
           <hr className="border-t border-[#e0e0e0] dark:border-[#363636]" />
           <div className="flex flex-col gap-3">
             <p className="text-[#767676] dark:text-[#BBBBBB] tracking-wider font-medium text-sm leading-6">
-              Hi, my name is Phyo Wunna Lin and I began using WordPress when it
-              first began. I’ve spent most of my waking hours for the last ten
-              years designing, programming and operating WordPress sites.
+              Hi, my name is Phyo Wunna Lin . Now i join MMS IT Workshop Program . I code and create beautiful website design with Html , Css , Js and using specialize React Library .
             </p>
             <p className="text-[#767676] dark:text-[#BBBBBB] tracking-wider font-medium text-sm leading-6">
-              One of my specialties is taking an idea from scratch and creating
-              a full-fledged platform. I go beyond to produce sites with a
-              unique, outstanding, contemporary look-and-feel. With extensive
-              knowledge of web mechanics, I’m able to optimize complex
-              integrations to require little-to-no maintenance while running on
-              their own for years.
+              I have successfully completed in Special Web Design Course and now i learning PHP MYSQUL.
+              I have team work experience and team projects.
             </p>
           </div>
           <hr className="border-t border-[#e0e0e0] dark:border-[#363636]" />

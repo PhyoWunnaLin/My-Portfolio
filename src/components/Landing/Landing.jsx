@@ -1,10 +1,9 @@
 import React from "react";
 import "./Landing.css";
-import { RiFacebookFill } from "react-icons/ri";
+import { RiFacebookFill, RiMessengerFill } from "react-icons/ri";
 import { RiInstagramFill } from "react-icons/ri";
-import { RiTwitterFill } from "react-icons/ri";
-import { BiLogoGmail } from "react-icons/bi";
-import { BiLogoTelegram } from "react-icons/bi";
+import { SiNetlify } from "react-icons/si";
+import {AiOutlineGithub} from "react-icons/ai"
 
 const Landing = () => {
   return (
@@ -32,19 +31,24 @@ const Landing = () => {
             </span>
           </div>
           <p className="text-[#767676] dark:text-[#BBBBBB] tracking-wide font-medium leading-7 max-lg:text-center max-lg:mx-auto max-lg:w-[70%] max-[290px]:text-sm">
-            Web Developer based in Yangon and happy to travel all over Europe to
-            capture photos.
+            Hi ,I am Junior Frontend Web Developer based in Yangon.
           </p>
           <div className=" max-lg:mx-auto flex gap-3 items-center text-black dark:text-white">
-            <a href="https://www.facebook.com/phyo.wunnalin.5">
+            <a href="https://www.facebook.com/phyo.wunnalin.5" target="blank">
               <RiFacebookFill className=" text-lg cursor-pointer hover-up duration-500 hover:text-[#767676] dark:hover:text-[#BBBBBB]" />
             </a>
-            <a href="https://www.instagram.com/phyo_wunna_lin">
+            <a href="https://www.instagram.com/phyo_wunna_lin" target="blank">
               <RiInstagramFill className=" text-lg cursor-pointer hover-up duration-500 hover:text-[#767676] dark:hover:text-[#BBBBBB]" />
             </a>
-            <RiTwitterFill className=" text-lg cursor-pointer hover-up duration-500 hover:text-[#767676] dark:hover:text-[#BBBBBB]" />
-            <BiLogoGmail className=" text-lg cursor-pointer hover-up duration-500 hover:text-[#767676] dark:hover:text-[#BBBBBB]" />
-            <BiLogoTelegram className=" text-lg cursor-pointer hover-up duration-500 hover:text-[#767676] dark:hover:text-[#BBBBBB]" />
+            <a href="https://github.com/PhyoWunnaLin" target="blank">
+            <AiOutlineGithub className=" text-lg cursor-pointer hover-up duration-500 hover:text-[#767676] dark:hover:text-[#BBBBBB]" />
+            </a>
+            <a href="https://www.facebook.com/messages/t/100054908832254" target="blank">
+            <RiMessengerFill className=" text-lg cursor-pointer hover-up duration-500 hover:text-[#767676] dark:hover:text-[#BBBBBB]" />
+            </a>
+            {/* <a href="https://app.netlify.com/teams/phyowunnalin/overview" target="blank">
+            <SiNetlify className=" text-lg cursor-pointer hover-up duration-500 hover:text-[#767676] dark:hover:text-[#BBBBBB]" />
+            </a> */}
           </div>
         </div>
       </div>

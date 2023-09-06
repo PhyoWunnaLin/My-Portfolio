@@ -25,8 +25,9 @@ const Projects = () => {
             </h1>
           </div>
           <div className="flex gap-14 flex-wrap mt-3">
-            <Link
-              to={"https://eduvide.netlify.app"}
+            <a
+              href="https://eduvide.netlify.app"
+              target="blank"
               className="card cursor-pointer flex flex-col gap-5 w-[45%] max-lg:w-[100%] bg-white dark:bg-[#323232] shadow-lg dark:shadow-[#252525]"
             >
               <div className="w-full h-[250px] max-lg:h-[500px] max-[830px]:h-[450px] max-md:h-[400px] max-sm:h-[300px] max-[500px]:h-[250px] max-[400px]:h-[200px] max-[350px]:h-[170px] max-[300px]:h-[150px] overflow-hidden">
@@ -74,23 +75,24 @@ const Projects = () => {
               <hr className="border-t border-[#EEEEEE] dark:border-[#1f1e1e] mx-5" />
               <div className="flex mx-5 mb-5 max-[400px]:justify-between flex-wrap gap-5">
                 <div className="w-[150px]">
-                  <Link to={"https://eduvide.netlify.app"}>
+                  <a href="https://eduvide.netlify.app" target="blank">
                     <button className=" px-10 py-4 bg-black dark:bg-white text-white dark:text-black font-medium tracking-wider hover:tracking-[0.15em] duration-500 cursor-pointer">
                       Demo
                     </button>
-                  </Link>
+                  </a>
                 </div>
                 <div>
-                  <Link to={"https://github.com/PhyoWunnaLin/Edu-Pro"}>
+                  <a href="https://github.com/PhyoWunnaLin/Edu-Pro" target="blank">
                     <button className=" px-10 py-4 bg-black dark:bg-white text-white dark:text-black font-medium tracking-wider hover:tracking-[0.15em] duration-500 cursor-pointer">
                       Git
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
-            </Link>
-            <Link
-              to={"https://edu-pro-dashboard2.netlify.app"}
+            </a>
+            <a
+              href="https://edu-pro-dashboard2.netlify.app"
+              target="blank"
               className="card cursor-pointer flex flex-col gap-5 w-[45%] max-lg:w-[100%] bg-white dark:bg-[#323232] shadow-lg dark:shadow-[#252525]"
             >
               <div className="w-full h-[250px] max-lg:h-[500px] max-[830px]:h-[450px] max-md:h-[400px] max-sm:h-[300px] max-[500px]:h-[250px] max-[400px]:h-[200px] max-[350px]:h-[170px] max-[300px]:h-[150px] overflow-hidden">
@@ -138,25 +140,26 @@ const Projects = () => {
               <hr className="border-t border-[#EEEEEE] dark:border-[#1f1e1e] mx-5" />
               <div className="flex mx-5 mb-5 max-[400px]:justify-between flex-wrap gap-5">
                 <div className="w-[150px]">
-                  <Link to={"https://edu-pro-dashboard2.netlify.app"}>
+                  <a href="https://edu-pro-dashboard2.netlify.app" target="blank">
                     <button className=" px-10 py-4 bg-black dark:bg-white text-white dark:text-black font-medium tracking-wider hover:tracking-[0.15em] duration-500 cursor-pointer">
                       Demo
                     </button>
-                  </Link>
+                  </a>
                 </div>
                 <div>
-                  <Link
-                    to={"https://github.com/PhyoWunnaLin/Edu_Pro_Dashboard"}
+                  <a
+                    href="https://github.com/PhyoWunnaLin/Edu_Pro_Dashboard" target="blank"
                   >
                     <button className=" px-10 py-4 bg-black dark:bg-white text-white dark:text-black font-medium tracking-wider hover:tracking-[0.15em] duration-500 cursor-pointer">
                       Git
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
-            </Link>
-            <Link
-              to={"https://contact-web1.netlify.app"}
+            </a>
+            <a
+              href="https://contact-web1.netlify.app"
+              target="blank"
               className="card cursor-pointer flex flex-col gap-5 w-[45%] max-lg:w-[100%] bg-white dark:bg-[#323232] shadow-lg dark:shadow-[#252525]"
             >
               <div className="w-full h-[250px] max-lg:h-[500px] max-[830px]:h-[450px] max-md:h-[400px] max-sm:h-[300px] max-[500px]:h-[250px] max-[400px]:h-[200px] max-[350px]:h-[170px] max-[300px]:h-[150px] overflow-hidden">
@@ -207,23 +210,24 @@ const Projects = () => {
               <hr className="border-t border-[#EEEEEE] dark:border-[#1f1e1e] mx-5" />
               <div className="flex mx-5 mb-5 max-[400px]:justify-between flex-wrap gap-5">
                 <div className="w-[150px]">
-                  <Link to={"https://contact-web1.netlify.app"}>
+                  <a href="https://contact-web1.netlify.app" target="blank">
                     <button className=" px-10 py-4 bg-black dark:bg-white text-white dark:text-black font-medium tracking-wider hover:tracking-[0.15em] duration-500">
                       Demo
                     </button>
-                  </Link>
+                  </a>
                 </div>
                 <div>
-                  <Link to={"https://github.com/PhyoWunnaLin/Contact-web"}>
+                  <a href="https://github.com/PhyoWunnaLin/Contact-web" target="blank">
                     <button className=" px-10 py-4 bg-black dark:bg-white text-white dark:text-black font-medium tracking-wider hover:tracking-[0.15em] duration-500">
                       Git
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
-            </Link>
-            <Link
-              to={"https://webpos1.netlify.app"}
+            </a>
+            <a
+              href="https://webpos1.netlify.app"
+              target="blank"
               className="card cursor-pointer flex flex-col gap-5 w-[45%] max-lg:w-[100%] bg-white dark:bg-[#323232] shadow-lg dark:shadow-[#252525]"
             >
               <div className="w-full h-[250px] max-lg:h-[500px] max-[830px]:h-[450px] max-md:h-[400px] max-sm:h-[300px] max-[500px]:h-[250px] max-[400px]:h-[200px] max-[350px]:h-[170px] max-[300px]:h-[150px] overflow-hidden">
@@ -274,21 +278,21 @@ const Projects = () => {
               <hr className="border-t border-[#EEEEEE] dark:border-[#1f1e1e] mx-5" />
               <div className="flex mx-5 mb-5 max-[400px]:justify-between flex-wrap gap-5">
                 <div className="w-[150px]">
-                  <Link to={"https://webpos1.netlify.app"}>
+                  <a href="https://webpos1.netlify.app" target="blank">
                     <button className=" px-10 py-4 bg-black dark:bg-white text-white dark:text-black font-medium tracking-wider hover:tracking-[0.15em] duration-500">
                       Demo
                     </button>
-                  </Link>
+                  </a>
                 </div>
                 <div>
-                  <Link to={"https://github.com/PhyoWunnaLin/Web-Pos"}>
+                  <a href="https://github.com/PhyoWunnaLin/Web-Pos" target="blank">
                     <button className=" px-10 py-4 bg-black dark:bg-white text-white dark:text-black font-medium tracking-wider hover:tracking-[0.15em] duration-500">
                       Git
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
