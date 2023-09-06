@@ -70,11 +70,11 @@ const Resume = () => {
                       RTK Query
                     </span>
                     <span className=" italic text-[#242424] dark:text-[#BBBBBB] font-medium tracking-widest">
-                      80%
+                      85%
                     </span>
                   </div>
                   <div className="h-[3px] w-full bg-[#E8E8E8] dark:bg-[#444444]">
-                    <div className="w-[80%] h-[3px] bg-black dark:bg-[#7B7B7B]"></div>
+                    <div className="w-[85%] h-[3px] bg-black dark:bg-[#7B7B7B]"></div>
                   </div>
                 </div>
               </div>
@@ -153,7 +153,7 @@ const Resume = () => {
                     <MdPlayArrow />
                   </span>
                   <span className="text-[#4C4C4C] dark:text-[#B3B3B3] italic tracking-widest font-medium">
-                    RTK
+                    RTK Query
                   </span>
                 </div>
                 <div className="flex gap-3 items-center">
@@ -212,14 +212,6 @@ const Resume = () => {
                   </span>
                   <span className="text-[#4C4C4C] dark:text-[#B3B3B3] italic tracking-widest font-medium">
                     Git, GitHub
-                  </span>
-                </div>
-                <div className="flex gap-3 items-center">
-                  <span className=" text-black dark:text-white">
-                    <MdPlayArrow />
-                  </span>
-                  <span className="text-[#4C4C4C] dark:text-[#B3B3B3] italic tracking-widest font-medium">
-                    Mantine
                   </span>
                 </div>
               </div>
